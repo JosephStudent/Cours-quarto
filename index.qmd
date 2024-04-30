@@ -1,0 +1,8 @@
+---
+title: " Analyse des données"
+format: html
+---
+
+# Bienvenue sur le Cours d'Analyse de Données
+
+Bienvenue sur notre plateforme de cours sur l'analyse de données. Ce site vous offre des ressources pour apprendre R et Python.

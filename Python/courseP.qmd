@@ -1,0 +1,8 @@
+---
+title: "Cours Python"
+format: html
+---
+
+# Cours Python
+
+Apprenez à manipuler des données en utilisant Python. Ce cours inclut...

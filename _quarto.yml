@@ -5,10 +5,15 @@ website:
   title: "Cours sur l'Analyse de Données"
   description: "Apprenez l'analyse de données avec R et Python"
   navbar:
+    background: primary
+    search: true
     left:
       - text: "Accueil"
+        file: index.qmd
         href: index.html
       - text: "Cours R"
+        file: courseR.qmd
         href: courseR.html
       - text: "Cours Python"
+        file: courseP.qmd
         href: courseP.html

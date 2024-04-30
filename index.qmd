@@ -1,6 +1,10 @@
 ---
 title: " Analyse des données"
 format: html
+format:
+  html:
+    include-before:
+      - "<link rel='stylesheet' href='Cours quarto/style.css'>"
 ---
 
 # Bienvenue sur le Cours d'Analyse de Données

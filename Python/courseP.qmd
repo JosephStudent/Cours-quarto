@@ -1,6 +1,10 @@
 ---
 title: "Cours Python"
 format: html
+format:
+  html:
+    include-before:
+      - "<link rel='stylesheet' href='Cours quarto/style.css'>"
 ---
 
 # Cours Python

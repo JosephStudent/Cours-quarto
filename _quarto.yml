@@ -9,11 +9,8 @@ website:
     search: true
     left:
       - text: "Accueil"
-        file: index.qmd
         href: index.html
       - text: "Cours R"
-        file: courseR.qmd
         href: courseR.html
       - text: "Cours Python"
-        file: courseP.qmd
         href: courseP.html

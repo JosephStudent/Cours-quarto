@@ -2,15 +2,33 @@ project:
   type: website
 
 website:
-  title: "Cours sur l'Analyse de Données"
+  title: "DATA"
+  - text: "Cours sur l'Analyse de Données" 
   description: "Apprenez l'analyse de données avec R et Python"
   navbar:
     background: primary
     search: true
     left:
       - text: "Accueil"
-        href: index.qmd
-      - text: "Cours R"
-        href: courseR.qmd
-      - text: "Cours Python"
-        href: courseP.qmd
+        file: index.qmd
+         - sidebar: R
+         - sidebar: Python
+   sidebar:
+    - id: r
+      title: "R"
+      style: "docked"
+      background: light
+      collapse-level: 2
+      contents: 
+        # navigation items
+        - courseR.qmd
+        - exerciceR.qmd
+        
+    - id: python
+      title: "Python"
+      contents:
+        # navigation items
+        - courseP.qmd
+        - exerciceP.qmd
+
+

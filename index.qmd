@@ -3,4 +3,4 @@ title: "Analyse des données"
 ---
 <p id=textIntro>Bienvenue sur notre plateforme de cours sur l'analyse de données. Ce site vous offre des ressources pour apprendre R et Python.
 .</p>
-<p id=textIntro>Bonjour ! Moi c'est <strong>Joseph Midiburo</strong>, Etudiant à l'IA School pour plus d'infos me concernant voici mon Linkedin <a href="https://www.linkedin.com/in/joseph-midiburo-a58022222/">Joseph MIDIBURO</a>Amusez vous bien !!</p>
+<p id=textIntro>Bonjour ! Moi c'est <strong>Joseph Midiburo</strong>, Etudiant à l'IA School pour plus d'infos me concernant voici mon Linkedin <a href="https://www.linkedin.com/in/joseph-midiburo-a58022222/">Joseph MIDIBURO</a>Amusez vous bien <a href=CourseP.qmd>Cours Python !</a> <a href=CourseR.qmd>Cours R</a></p>

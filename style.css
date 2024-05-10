@@ -1,17 +1,6 @@
-/* Fichier: style.css */
-.navbar {
-    background-color: #007BFF; /* Blue color */
-    color: white;
-    padding: 10px 20px;
-}
-
-.navbar a {
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    margin: 0 10px;
-}
-
-.navbar a:hover {
-    background-color: #0056b3;
+/* css styles */
+#textIntro   {
+    color:black;
+    text-align: justify;
+    line-height: 2rem;
 }

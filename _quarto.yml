@@ -3,32 +3,23 @@ project:
 
 website:
   title: "DATA"
-  - text: "Cours sur l'Analyse de Données" 
-  description: "Apprenez l'analyse de données avec R et Python"
+
   navbar:
-    background: primary
-    search: true
     left:
-      - text: "Accueil"
-        file: index.qmd
-         - sidebar: R
-         - sidebar: Python
-   sidebar:
-    - id: r
-      title: "R"
-      style: "docked"
-      background: light
-      collapse-level: 2
-      contents: 
-        # navigation items
-        - courseR.qmd
-        - exerciceR.qmd
-        
-    - id: python
-      title: "Python"
-      contents:
-        # navigation items
-        - courseP.qmd
-        - exerciceP.qmd
-
-
+      - href: index.qmd
+        text: Accueil
+      - href: courseP.qmd
+        text: Cours Python
+      - href: exerciceP.qmd
+        text: Exercice Python
+      - href: CourseR.qmd
+        text: Cours R
+      - href: exerciceR.qmd
+        text: Exercice R
+      - about.qmd
+      
+format:
+  html:
+    theme: zephyr
+    css: styles.css
+    toc: true
